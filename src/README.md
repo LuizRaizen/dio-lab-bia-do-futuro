@@ -1,31 +1,19 @@
-# Código da Aplicação
+# 🛡️ Sentinela — Segurança Pix e Prevenção a Fraudes
 
-Esta pasta contém o código do seu agente financeiro.
+Assistente inteligente especializado em segurança de pagamentos, triagem de transações Pix suspeitas e orientação para prevenção a fraudes bancárias.
 
-## Estrutura Sugerida
+## 📂 Estrutura do Projeto
 
-```
-src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
-└── requirements.txt    # Dependências
-```
-
-## Exemplo de requirements.txt
-
-```
-streamlit
-openai
-python-dotenv
-```
-
-## Como Rodar
-
-```bash
-# Instalar dependências
-pip install -r requirements.txt
-
-# Rodar a aplicação
-streamlit run app.py
-```
+```text
+sentinela_codigo_fonte/
+├── data/
+│   ├── perfil_investidor.json      # Dados cadastrais e perfil do cliente
+│   ├── produtos_financeiros.json   # Catálogo de produtos e investimentos disponíveis
+│   ├── historico_atendimento.csv   # Histórico prévio de interações e chamados
+│   └── transacoes.csv              # Extrato de transações, receitas e despesas
+├── src/
+│   ├── app.py                      # Aplicação principal em Streamlit
+│   ├── agente.py                   # Lógica central do Agente Sentinela e system prompts
+│   └── config.py                   # Gestão de configurações e variáveis de ambiente
+├── requirements.txt                # Dependências do projeto
+└── README.md
