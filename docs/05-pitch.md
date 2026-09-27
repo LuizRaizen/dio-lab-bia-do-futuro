@@ -38,12 +38,11 @@ O grande diferencial do Sentinela é a sua **arquitetura de segurança em camada
 - [x] Problema claramente definido
 - [x] Solução demonstrada na prática
 - [x] Diferencial explicado
-- [ ] Áudio e vídeo com boa qualidade
+- [x] Áudio e vídeo com boa qualidade
 
+> Obs. Uma parte do vídeo foi dedicada a uma **apresentação pessoal** para **contextualização do projeto**. A apresentação do projeto em si está dentro dos **3 min** de duração.
 ---
 
 ## Link do Vídeo
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
-
-[Link do vídeo]
+[Assista a uma apresentação rápida do Sentinela]
